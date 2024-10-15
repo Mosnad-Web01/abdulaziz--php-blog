@@ -1,0 +1,90 @@
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+
+
+<div class="container mt-5">
+    <h1 class="mb-4">About Us</h1>
+    <p class="lead">We are passionate about creating simple and effective websites.</p>
+
+    <!-- Team Section using Bootstrap Cards -->
+    <h2 class="my-4">Meet Our Team</h2>
+    <div class="row">
+        <!-- Team Member 1 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member 1">
+                <div class="card-body">
+                    <h5 class="card-title">John Doe</h5>
+                    <p class="card-text">John is a full-stack developer with 5+ years of experience building modern web applications.</p>
+                    <a href="#" class="btn btn-primary">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <!-- Team Member 2 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member 2">
+                <div class="card-body">
+                    <h5 class="card-title">Jane Smith</h5>
+                    <p class="card-text">Jane is a front-end developer specializing in UI/UX design and user experiences.</p>
+                    <a href="#" class="btn btn-primary">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <!-- Team Member 3 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member 3">
+                <div class="card-body">
+                    <h5 class="card-title">Michael Lee</h5>
+                    <p class="card-text">Michael handles project management and ensures everything runs smoothly and on time.</p>
+                    <a href="#" class="btn btn-primary">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Accordion for Frequently Asked Questions (FAQ) -->
+    <h2 class="my-4">Frequently Asked Questions</h2>
+    <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What services do you offer?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    We offer a wide range of web development services including full-stack development, UI/UX design, and SEO optimization.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    How can we contact you?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    You can reach us via our <a href="index.php?page=contact">Contact Page</a> or connect with any of our team members via LinkedIn.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Do you offer ongoing support?
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Yes, we provide ongoing maintenance and support for all our clients.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
