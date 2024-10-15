@@ -1,0 +1,14 @@
+<!-- views/post.templet.html -->
+<div class="container mt-5">
+    <div class="post card shadow">
+        <div class="card-body">
+            <h1 class="card-title text-primary"><?= htmlspecialchars($post['title']); ?></h1>
+            <p class="card-text"><?= nl2br(htmlspecialchars($post['content'])); ?></p>
+            <p class="text-muted"><em>Posted on <?= htmlspecialchars($post['created_at']); ?></em></p>
+            <div class="d-flex justify-content-between">
+                <a href="blog" class="btn btn-secondary">Back to Blog</a>
+                <a href="edit.php?id=<?= $post['id']; ?>" class="btn btn-warning">Edit Post</a>
+            </div>
+        </div>
+    </div>
+</div>
